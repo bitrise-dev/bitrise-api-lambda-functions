@@ -40,8 +40,3 @@ As we know AWS Lambda function needs to be triggered by any supported triggers. 
   - API_KEY
 
 ![upload](/images/config.png)
-
-- You can replace the **app_slug** and **API_Key** with the Lambda Environment variables:
-
- - ${process.env.APP_SLUG}
- - ${process.env.Api_KEY}
