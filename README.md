@@ -1,2 +1,1 @@
-# bitrise-api-lambda-functions
-Bitrise API + AWS Lambda Function
+# Bitrise API + AWS Lambda Functions
