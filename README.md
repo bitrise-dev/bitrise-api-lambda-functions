@@ -1,6 +1,6 @@
 # Bitrise API + AWS Lambda Functions
 
-In this series of articles, we shared some hands-on experience on how to use the** AWS Lambda**, learn to design and build a Serverless function to trigger Bitrise builds with **Bitrise API** via the custom Lambda function.
+In this series of articles, we shared some hands-on experience on how to use the **AWS Lambda**, learn to design and build a Serverless function to trigger Bitrise builds with **Bitrise API** via the custom Lambda function.
 
 [Alexa for Bitrise CI/CD: Introduction to serverless with AWS Lambda and Bitrise API - Part 1](https://blog.bitrise.io/post/alexa-for-bitrise-ci-cd-introduction-to-serverless-with-aws-lambda-and-bitrise-api-part-1)
 
@@ -11,7 +11,7 @@ In this series of articles, we shared some hands-on experience on how to use the
 [Alexa for Bitrise CI/CD: Putting it all together - Part 3](https://blog.bitrise.io/post/alexa-for-bitrise-ci-cd-part-3)
 
 ## The solution
-As we know AWS Lambda function needs to be triggered by any supported triggers. Because of this, we will use **Alexa** and **Alexa Skill Kit (ASK) **to trigger the function. Inside the function, we will add our logic to receive the voice command from Alexa and pass it to Bitrise API using the POST endpoint to trigger a new build in our Bitrise app. Then, we will get the response from Lambda to the Alexa as a JSON output. 
+As we know AWS Lambda function needs to be triggered by any supported triggers. Because of this, we will use **Alexa** and **Alexa Skill Kit (ASK)** to trigger the function. Inside the function, we will add our logic to receive the voice command from Alexa and pass it to Bitrise API using the POST endpoint to trigger a new build in our Bitrise app. Then, we will get the response from Lambda to the Alexa as a JSON output. 
 
 ![design](/images/design.png)
 
